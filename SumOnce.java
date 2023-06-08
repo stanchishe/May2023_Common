@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class SumOnce {
     public static void main(String[] args) {
+        final String expectedAnswer = "Yes";
         Scanner scanner = new Scanner(System.in);
         String answer = "";
         do {
@@ -14,7 +15,7 @@ public class SumOnce {
 
             System.out.println("Would you like to try that again? Enter 'Yes' to confirm.");
             answer = scanner.next();
-        } while (answer.equalsIgnoreCase("Yes"));
+        } while (answer.equalsIgnoreCase(expectedAnswer));
         scanner.close();
 
         System.out.println("No more additions will be performed! Bye!");
