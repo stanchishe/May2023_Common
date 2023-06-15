@@ -16,5 +16,15 @@ public class HashMapPlaceholder {
 
         System.out.println(peopleAges.containsKey("Ann"));
         System.out.println(peopleAges.containsValue(54));
+
+        System.out.println(peopleAges.get("Kirk"));
+
+        peopleAges.replace("Kirk", 30);
+        System.out.println(peopleAges.get("Kirk"));
+
+        System.out.println(peopleAges.get("Mark"));
+
+        peopleAges.replace("Mark", 30);
+        System.out.println(peopleAges.get("Mark"));
     }
 }
