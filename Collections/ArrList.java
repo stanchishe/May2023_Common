@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 class Pet {
@@ -82,5 +83,13 @@ public class ArrList {
         Object received3Obj = objectsArrList.get(3);
 
         System.out.println(received3Obj);
+
+
+        ArrayList<Integer> intList = new ArrayList<>();
+        Integer[] intArr = {2, 6, 7, 12, 15};
+        Collections.addAll(intList, intArr);
+
+
+        System.out.println(intList);
     }
 }
