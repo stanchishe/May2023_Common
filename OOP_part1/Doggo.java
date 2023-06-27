@@ -10,6 +10,8 @@ public class Doggo {
     // public OOP_part1.Doggo() {};
     // Next constructors, classes support more than one. Method overloading rules apply!!!
     // Second Doggos constructor
+
+    //Adding some
     public Doggo(String name) {
         this.name = name;
         this.age = -1;
